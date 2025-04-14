@@ -1,0 +1,36 @@
+.task-window {
+  position: absolute;
+  width: 300px;
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  z-index: 10;
+  user-select: none;
+}
+
+.window-header {
+  background-color: #444;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: move;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.window-buttons button {
+  margin-left: 4px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.window-content {
+  padding: 10px;
+  font-size: 14px;
+}

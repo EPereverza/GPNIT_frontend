@@ -1,0 +1,9 @@
+/* src/pages/Room.css */
+.room-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/room.jpg');
+  background-size: cover;
+  background-position: center;
+}
