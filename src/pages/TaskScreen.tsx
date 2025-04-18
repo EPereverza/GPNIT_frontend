@@ -13,7 +13,7 @@ const TaskScreen = () => {
       fontSize: '24px',
       fontFamily: 'monospace'
     }}>
-      <p>Вы в системе. Получена задача: оптимизировать добычу нефти...</p>
+      <p></p>
     </div>
   )
 }

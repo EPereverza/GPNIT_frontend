@@ -1,4 +1,25 @@
-/* src/components/TaskDropdown.css */
+/* .task-dropdown-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  bottom: 40px;
+  left: 10px;
+  width: 200px;
+  z-index: 100;
+} */
+
+.task-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.task-item:hover {
+  background-color: #eee;
+}
+
+
+
+
 .dropdown {
   position: absolute;
   bottom: 60px;
